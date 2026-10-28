@@ -1,0 +1,66 @@
+[
+  {
+    "id": "med1",
+    "name": "Paracetamol 500 mg",
+    "category": "Pain & Fever",
+    "description": "Commonly used to reduce fever and relieve mild to moderate pain. Follow the label or clinician instructions.",
+    "caution": "Do not exceed the recommended dose; ask a clinician if you have liver disease or take other medicines containing paracetamol.",
+    "rx": false
+  },
+  {
+    "id": "med2",
+    "name": "Cetirizine 10 mg",
+    "category": "Allergy",
+    "description": "An antihistamine used for symptoms such as sneezing, runny nose and itching.",
+    "caution": "May cause drowsiness in some people. Follow clinician or package directions.",
+    "rx": false
+  },
+  {
+    "id": "med3",
+    "name": "Omeprazole 20 mg",
+    "category": "Acid reflux",
+    "description": "Reduces stomach acid and is used for certain reflux and acidity conditions.",
+    "caution": "Use according to clinician advice, especially for persistent symptoms.",
+    "rx": true
+  },
+  {
+    "id": "med4",
+    "name": "Amoxicillin 500 mg",
+    "category": "Antibiotic",
+    "description": "A prescription antibiotic used for certain bacterial infections.",
+    "caution": "Prescription medicine. Do not use for viral illnesses or share antibiotics with others.",
+    "rx": true
+  },
+  {
+    "id": "med5",
+    "name": "Salbutamol inhaler",
+    "category": "Respiratory",
+    "description": "A reliever inhaler that can help open narrowed airways in some respiratory conditions.",
+    "caution": "Use only as directed by a clinician and seek urgent help for severe breathing difficulty.",
+    "rx": true
+  },
+  {
+    "id": "med6",
+    "name": "ORS solution",
+    "category": "Hydration",
+    "description": "Oral rehydration solution helps replace fluids and electrolytes during dehydration from diarrhea or vomiting.",
+    "caution": "Prepare exactly as directed on the packet.",
+    "rx": false
+  },
+  {
+    "id": "med7",
+    "name": "Vitamin D3",
+    "category": "Nutrition",
+    "description": "A vitamin D supplement used when supplementation is recommended.",
+    "caution": "Dose should be based on clinician advice or product directions.",
+    "rx": false
+  },
+  {
+    "id": "med8",
+    "name": "Iron + Folic Acid",
+    "category": "Nutrition",
+    "description": "Supplement commonly prescribed for iron deficiency or during pregnancy when clinically appropriate.",
+    "caution": "Can cause stomach upset or constipation; use the dose recommended by a clinician.",
+    "rx": true
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c1",
+    "name": "Heart Health Community",
+    "description": "General education and peer support around heart-healthy habits.",
+    "members": 1240
+  },
+  {
+    "id": "c2",
+    "name": "Parents & Kids Care",
+    "description": "Parent-focused wellness discussions, pediatric education and support.",
+    "members": 980
+  },
+  {
+    "id": "c3",
+    "name": "Healthy Mind Circle",
+    "description": "A supportive space for general mental wellness and healthy routines.",
+    "members": 760
+  },
+  {
+    "id": "c4",
+    "name": "Diabetes Wellness Community",
+    "description": "Lifestyle education and peer encouragement for diabetes care.",
+    "members": 1130
+  }
+]

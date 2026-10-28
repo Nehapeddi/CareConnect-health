@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#6d4cc2">
+<title>CareConnect — Complete Digital Healthcare</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div id="toast" class="toast"></div>
+<header class="topbar">
+  <button class="brand" data-page="home"><span class="brand-mark">✚</span>Care<span>Connect</span></button>
+  <div class="top-actions"><button class="icon-btn" id="searchTop">⌕</button><button class="icon-btn" id="notifyBtn">🔔</button><button class="avatar-btn" id="profileBtn">GU</button></div>
+</header>
+
+<main class="app-shell">
+<section class="page active" id="homePage">
+  <div class="welcome-row"><div><p class="eyebrow">YOUR DIGITAL HEALTH COMPANION</p><h1 id="welcomeName">Hi, Patient 👋</h1><p class="lead muted">Doctors, appointments, medicines, wellness and health tools — in one place.</p></div></div>
+  <div class="hero-card">
+    <div><span class="pill light">CONNECTED CARE</span><h2>Healthcare that<br>fits your life.</h2><p>Consult doctors online, book visits, manage prescriptions and discover practical health resources.</p>
+    <div class="hero-actions"><button class="primary light-button" data-page="find">Find a doctor →</button><button class="ghost-light" data-feature="video">🎥 Video consult</button></div></div>
+    <div class="hero-art"><div class="doctor-illustration">🩺</div><div class="floating-card">♥ Family care<br><b>24/7 connected</b></div></div>
+  </div>
+
+  <div class="section-head"><h2>Everything in one app</h2></div>
+  <div class="feature-grid" id="featureGrid"></div>
+
+  <section class="kids-banner"><div class="kids-icon">🧸</div><div><span class="eyebrow">KIDS CARE</span><h2>Gentle care for little ones</h2><p>Book pediatric doctors and include a child's age during appointment scheduling.</p><button class="kids-btn" id="kidsCareBtn">Explore child doctors →</button></div></section>
+
+  <div class="section-head"><h2>Popular doctors</h2><button class="text-btn" data-page="find">See all →</button></div>
+  <div class="doctor-grid" id="popularDoctors"></div>
+  <div class="trust-strip"><div><b>80+</b><span>Doctors</span></div><div><b>8</b><span>Specialties</span></div><div><b>15+</b><span>Health tools</span></div><div><b>1</b><span>Connected dashboard</span></div></div>
+</section>
+
+<section class="page" id="findPage">
+ <div class="page-title"><div><p class="eyebrow">DISCOVER</p><h1>Find Your Doctor</h1><p class="muted">All demo doctors are shown in white coats with stethoscopes.</p></div></div>
+ <div class="search-box"><span>⌕</span><input id="doctorSearch" placeholder="Search doctor or specialty..."><button id="clearSearch">×</button></div>
+ <div class="filter-row" id="filterRow"></div><div class="result-label"><span id="resultCount">0 doctors</span><span>Specialists</span></div><div class="doctor-list" id="doctorList"></div>
+</section>
+
+<section class="page" id="appointmentsPage">
+ <div class="page-title"><div><p class="eyebrow">SCHEDULE & REMIND</p><h1>Appointments</h1><p class="muted">Book visits, join online consultations and manage reminders.</p></div></div>
+ <div class="quick-grid"><button class="quick-card" data-page="find">📅<b>Book appointment</b><span>Choose doctor & time</span></button><button class="quick-card" id="enableNotify">🔔<b>Enable reminders</b><span>Browser notification support</span></button></div>
+ <div id="appointmentList"></div>
+</section>
+
+<section class="page" id="dashboardPage">
+ <div class="page-title"><div><p class="eyebrow">PATIENT DASHBOARD</p><h1>Your health at a glance</h1></div></div>
+ <div class="stat-grid" id="dashboardStats"></div>
+ <div class="two-col"><div class="panel"><h2>Next appointment</h2><div id="nextAppointment"></div></div><div class="panel"><h2>Open care tasks</h2><div id="dashboardTasks"></div></div></div>
+</section>
+
+<section class="page" id="medicinesPage">
+ <div class="page-title"><div><p class="eyebrow">MEDICINE CABINET</p><h1>Medicines & prescriptions</h1><p class="muted">Descriptions are educational. Follow your clinician's instructions.</p></div></div>
+ <div class="search-box"><span>⌕</span><input id="medicineSearch" placeholder="Search medicines..."></div><div id="medicineList" class="medicine-grid"></div>
+ <div class="section-head"><h2>Your prescriptions</h2><button class="text-btn" id="demoPrescription">Add demo prescription</button></div><div id="prescriptionList"></div>
+</section>
+
+<section class="page" id="videoPage">
+ <div class="page-title"><div><p class="eyebrow">TELEMEDICINE</p><h1>Video consultations</h1><p class="muted">Start an appointment online and use your camera/microphone.</p></div></div>
+ <div class="video-banner"><div><span class="pill">SECURE CARE ROOM</span><h2>Meet your doctor from home.</h2><p>Choose a doctor and start a browser-based demo consultation room.</p></div><div class="video-icon">🎥</div></div>
+ <div class="doctor-grid" id="videoDoctors"></div>
+</section>
+
+<section class="page" id="clinicalPage">
+ <div class="page-title"><div><p class="eyebrow">CLINICAL SUPPORT</p><h1>Clinical Decision Support</h1><p class="muted">Safety-first educational checklists to help patients prepare for clinician conversations. This does not make diagnoses or treatment decisions.</p></div></div>
+ <div class="article-grid">
+  <article class="article-card"><div class="article-icon">🧭</div><span class="tag">Red flags</span><h3>Urgency checklist</h3><p>Use the emergency tool for severe chest pain, severe breathing difficulty, sudden weakness, seizures, loss of consciousness or heavy bleeding.</p><button class="primary" data-page="emergency">Open emergency support</button></article>
+  <article class="article-card"><div class="article-icon">📝</div><span class="tag">Visit preparation</span><h3>Questions for your clinician</h3><p>Write down when symptoms started, what makes them better or worse, current medicines, allergies, recent test results and your main questions.</p></article>
+  <article class="article-card"><div class="article-icon">🛡️</div><span class="tag">Medication safety</span><h3>Medication cross-check</h3><p>Keep an up-to-date medicine list and ask a pharmacist or clinician about interactions before starting, stopping or combining medicines.</p><button class="primary" data-page="medicines">Review medicines</button></article>
+  <article class="article-card"><div class="article-icon">👶</div><span class="tag">Pediatrics</span><h3>Child-care checklist</h3><p>For children, record age, temperature, hydration, symptoms, vaccination history and current medicines before a pediatric consultation.</p><button class="primary" id="cdsKids">Find pediatricians</button></article>
+ </div>
+</section>
+<section class="page" id="symptomsPage">
+ <div class="page-title"><div><p class="eyebrow">HEALTH TOOL</p><h1>Symptom Checker</h1><p class="muted">Educational triage only — it does not diagnose illness.</p></div></div>
+ <div class="panel symptom-panel"><textarea id="symptomsInput" placeholder="Example: headache and mild dizziness for two days"></textarea><button class="primary" id="checkSymptoms">Check symptoms</button><div id="symptomResult"></div></div>
+</section>
+
+<section class="page" id="educationPage">
+ <div class="page-title"><div><p class="eyebrow">LEARN</p><h1>Patient Education</h1><p class="muted">Simple health information for everyday decisions.</p></div></div>
+ <div id="educationList" class="article-grid"></div>
+</section>
+
+<section class="page" id="tasksPage">
+ <div class="page-title"><div><p class="eyebrow">WORKFLOW</p><h1>Care Tasks</h1><p class="muted">Track health-related tasks, follow-ups and preparation.</p></div></div>
+ <div class="task-add"><input id="taskTitle" placeholder="Add a task, e.g. Upload blood report"><input id="taskDue" type="date"><select id="taskPriority"><option>Low</option><option selected>Medium</option><option>High</option></select><button class="primary" id="addTask">Add</button></div>
+ <div id="taskList"></div>
+</section>
+
+<section class="page" id="billingPage">
+ <div class="page-title"><div><p class="eyebrow">BILLING</p><h1>Payments & billing</h1><p class="muted">Demo billing UI — no real money is charged.</p></div></div>
+ <div class="billing-card"><div><span>Demo consultation balance</span><strong id="demoAmount">₹500</strong></div><select id="paymentMethod"><option>Demo Card</option><option>UPI Demo</option><option>Net Banking Demo</option></select><button class="primary" id="payDemo">Pay securely (demo)</button></div>
+ <div id="paymentList"></div>
+</section>
+
+<section class="page" id="hospitalsPage">
+ <div class="page-title"><div><p class="eyebrow">NEARBY CARE</p><h1>Hospital Finder</h1><p class="muted">Demo hospital directory. Verify details before travelling.</p></div></div>
+ <div class="search-box"><span>⌕</span><input id="hospitalSearch" placeholder="Search by city or hospital..."></div><div id="hospitalList" class="hospital-grid"></div>
+</section>
+
+<section class="page" id="insurancePage">
+ <div class="page-title"><div><p class="eyebrow">COVERAGE</p><h1>Healthcare Insurance Companion</h1><p class="muted">Understand example coverage and claim workflows.</p></div></div>
+ <div id="insuranceList" class="article-grid"></div>
+</section>
+
+<section class="page" id="wellnessPage">
+ <div class="page-title"><div><p class="eyebrow">WELLNESS</p><h1>Virtual Wellness Coach</h1><p class="muted">Small, practical habits for hydration, sleep, movement and mood.</p></div></div>
+ <div id="wellnessList" class="wellness-grid"></div>
+ <div class="panel mood-card"><h2>Daily mood check-in</h2><div class="mood-buttons"><button data-mood="Great">😊 Great</button><button data-mood="Okay">🙂 Okay</button><button data-mood="Low">😕 Low</button><button data-mood="Stressed">😣 Stressed</button></div><p id="moodMessage" class="muted"></p></div>
+</section>
+
+<section class="page" id="emergencyPage">
+ <div class="page-title"><div><p class="eyebrow">EMERGENCY</p><h1>Emergency Alert System</h1><p class="muted">Use emergency services for urgent, life-threatening situations.</p></div></div>
+ <div class="emergency-card"><div class="emergency-symbol">🚨</div><h2 id="emergencyMessage">If this is an emergency, call 112.</h2><div class="emergency-actions"><a href="tel:112" class="danger-button">Call 112</a><a href="tel:108" class="outline">Ambulance 108</a></div></div>
+ <div id="emergencyActions" class="article-grid"></div>
+</section>
+
+<section class="page" id="communitiesPage">
+ <div class="page-title"><div><p class="eyebrow">COMMUNITY</p><h1>Health Communities</h1><p class="muted">Join general education and peer-support spaces.</p></div></div>
+ <div id="communityList" class="community-grid"></div>
+</section>
+
+
+<section class="page" id="labreportsPage">
+ <div class="page-title">
+  <div><p class="eyebrow">HEALTH RECORDS</p><h1>Lab Reports</h1><p class="muted">Keep your test reports organized in one place. Demo reports are for UI testing only.</p></div>
+  <button class="primary" id="labUploadHint">＋ Add report</button>
+ </div>
+ <div class="records-summary">
+  <div><span>Reports</span><b id="labCount">0</b></div>
+  <div><span>Reviewed</span><b id="labReviewed">0</b></div>
+  <div><span>Latest</span><b id="labLatest">—</b></div>
+ </div>
+ <div id="labReportList" class="lab-report-grid"></div>
+</section>
+
+<section class="page" id="settingsPage">
+ <div class="page-title"><div><p class="eyebrow">PREFERENCES</p><h1>Settings</h1><p class="muted">Personalize your CareConnect experience.</p></div></div>
+ <div class="settings-card">
+  <div class="settings-section"><h2>Account</h2>
+   <div class="setting-row"><div><b>Profile information</b><span>Manage your name and account email from your profile.</span></div><button class="outline" data-page="profile">Open profile</button></div>
+  </div>
+  <div class="settings-section"><h2>Notifications</h2>
+   <label class="setting-row toggle-row"><div><b>Appointment reminders</b><span>Show reminders for upcoming appointments.</span></div><input type="checkbox" id="settingAppointments" checked><span class="switch"></span></label>
+   <label class="setting-row toggle-row"><div><b>Medicine reminders</b><span>Receive demo reminders for prescription schedules.</span></div><input type="checkbox" id="settingMedicines" checked><span class="switch"></span></label>
+   <label class="setting-row toggle-row"><div><b>Community updates</b><span>Show new community activity notifications.</span></div><input type="checkbox" id="settingCommunity"><span class="switch"></span></label>
+  </div>
+  <div class="settings-section"><h2>Appearance</h2>
+   <label class="setting-row toggle-row"><div><b>Soft lavender theme</b><span>Use the CareConnect light lavender visual style.</span></div><input type="checkbox" id="settingTheme" checked><span class="switch"></span></label>
+  </div>
+  <button class="primary full" id="saveSettings">Save settings</button>
+ </div>
+ <div class="settings-note"><b>Privacy note:</b> This student project stores demo preferences locally and does not connect to a real notification provider.</div>
+</section>
+
+<section class="page" id="messagesPage">
+ <div class="page-title"><div><p class="eyebrow">COMMUNICATION</p><h1>Messages</h1><p class="muted">Stay connected with your care team.</p></div></div>
+ <div id="messageList" class="message-list"></div>
+ <div class="compose"><select id="messageDoctor"></select><input id="messageText" placeholder="Write a message..."><button class="primary" id="sendMessage">Send</button></div>
+</section>
+
+<section class="page" id="profilePage">
+ <div class="profile-cover"><span class="cover-badge">CARECONNECT MEMBER</span></div>
+ <div class="profile-main"><div class="big-avatar" id="profileAvatar">GU</div><h1 id="profileName">Guest User</h1><p id="profileEmail" class="muted">Login to personalize your profile</p><div class="stats"><div><b>6.8k</b><span>Steps</span></div><div><b>8h</b><span>Sleep goal</span></div><div><b>24/7</b><span>Tools</span></div><div><b>112</b><span>Emergency</span></div></div>
+<div class="profile-actions">
+ <button class="quick-card" data-page="labreports">🧪<b>Lab reports</b><span>View your test records</span></button>
+ <button class="quick-card" data-page="settings">⚙️<b>Settings</b><span>Manage preferences</span></button>
+</div>
+<h2>About CareConnect</h2><p class="muted">A student healthcare application prototype combining telemedicine, scheduling, medicines, education, wellness and care navigation.</p><button class="outline full" id="logoutBtn">Log out</button></div>
+</section>
+</main>
+
+<nav class="bottom-nav">
+ <button class="nav-item active" data-page="home"><span>⌂</span><small>Home</small></button>
+ <button class="nav-item" data-page="find"><span>⌕</span><small>Doctors</small></button>
+ <button class="nav-center" data-page="appointments"><span>＋</span></button>
+ <button class="nav-item" data-page="dashboard"><span>▦</span><small>Dashboard</small></button>
+ <button class="nav-item" data-page="profile"><span>◎</span><small>Profile</small></button>
+</nav>
+
+<div class="modal" id="doctorModal"><div class="modal-card"><button class="modal-close" id="closeDoctor">×</button><div id="doctorModalContent"></div></div></div>
+<div class="modal" id="authModal"><div class="modal-card auth-card"><button class="modal-close" id="closeAuth">×</button><div class="auth-logo">✚</div><h2 id="authTitle">Welcome back</h2><p class="muted">Sign in to book appointments and use your personal tools.</p><div id="registerNameWrap" class="hidden"><label>Name</label><input id="registerName"></div><label>Email</label><input id="authEmail" type="email"><label>Password</label><input id="authPassword" type="password"><p id="authError" class="error"></p><button class="primary full" id="authSubmit">Login</button><button class="text-btn full" id="toggleAuth">Create a new account</button></div></div>
+
+<div class="modal" id="videoModal"><div class="modal-card video-modal-card"><button class="modal-close" id="closeVideo">×</button><div class="video-header"><div><span class="pill">LIVE DEMO ROOM</span><h2 id="videoDoctorName">Doctor</h2><p id="videoRoomId" class="muted"></p></div><span class="live-dot">● LIVE</span></div><div class="video-stage"><div class="doctor-video-placeholder"><div>🩺</div><b>Doctor video</b><small>Demo consultation room</small></div><video id="localVideo" autoplay muted playsinline></video></div><div class="video-controls"><button id="cameraBtn">📷 Camera</button><button id="micBtn">🎙️ Microphone</button><button class="danger-button" id="endVideo">End call</button></div><p class="muted small-note">For this student project, the room demonstrates browser camera/microphone access. A production telemedicine service needs a real WebRTC signaling/video provider.</p></div></div>
+
+<script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "lr1",
+    "userId": "demo",
+    "name": "Complete Blood Count (CBC)",
+    "date": "2026-09-18",
+    "lab": "CareConnect Diagnostics",
+    "status": "Reviewed",
+    "summary": "Hemoglobin, white-cell and platelet values are displayed for demonstration.",
+    "doctor": "Dr. Sophia Bennett",
+    "file": "CBC-demo.pdf"
+  },
+  {
+    "id": "lr2",
+    "userId": "demo",
+    "name": "Lipid Profile",
+    "date": "2026-09-12",
+    "lab": "CareConnect Diagnostics",
+    "status": "Available",
+    "summary": "Cholesterol and triglyceride report for the demo patient dashboard.",
+    "doctor": "Dr. William Anderson",
+    "file": "Lipid-demo.pdf"
+  },
+  {
+    "id": "lr3",
+    "userId": "demo",
+    "name": "Thyroid Function Test",
+    "date": "2026-08-28",
+    "lab": "CareConnect Diagnostics",
+    "status": "Reviewed",
+    "summary": "TSH and thyroid-related values for demonstration and UI testing.",
+    "doctor": "Dr. Olivia Carter",
+    "file": "Thyroid-demo.pdf"
+  }
+]

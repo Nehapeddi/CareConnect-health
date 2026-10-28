@@ -1,0 +1,11 @@
+[
+  {
+    "id": "pay_1790504528180_4of0l",
+    "userId": "u_1790504455115_ibfu7",
+    "amount": 500,
+    "method": "Demo Card",
+    "status": "Paid",
+    "createdAt": "2026-09-27T10:22:08.180Z",
+    "note": "Demo payment — no real money was charged."
+  }
+]

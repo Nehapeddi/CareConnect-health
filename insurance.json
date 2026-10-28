@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ins1",
+    "name": "CareShield Health",
+    "coverage": "Cashless hospitalization, selected outpatient benefits and digital claim tracking.",
+    "claimSteps": [
+      "Check policy coverage",
+      "Keep bills and reports",
+      "Submit claim documents",
+      "Track claim status"
+    ],
+    "hotline": "1800-100-200"
+  },
+  {
+    "id": "ins2",
+    "name": "FamilySecure Insurance",
+    "coverage": "Family hospitalization coverage with network-provider support.",
+    "claimSteps": [
+      "Confirm network hospital",
+      "Collect discharge summary",
+      "Submit required documents",
+      "Track approval"
+    ],
+    "hotline": "1800-100-300"
+  },
+  {
+    "id": "ins3",
+    "name": "WellLife Health Cover",
+    "coverage": "Individual health cover with digital policy access and support.",
+    "claimSteps": [
+      "Review policy terms",
+      "Check waiting periods",
+      "Submit claim",
+      "Respond to insurer requests"
+    ],
+    "hotline": "1800-100-400"
+  }
+]

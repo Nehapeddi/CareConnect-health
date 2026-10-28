@@ -1,0 +1,56 @@
+[
+  {
+    "id": "h1",
+    "name": "CareConnect City Hospital",
+    "city": "Guntur",
+    "address": "Main Medical Road, Guntur",
+    "phone": "+91 90000 10001",
+    "emergency": true,
+    "specialties": [
+      "Cardiology",
+      "Neurology",
+      "Orthopedics",
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "h2",
+    "name": "Apollo-style Community Hospital",
+    "city": "Vijayawada",
+    "address": "Health Avenue, Vijayawada",
+    "phone": "+91 90000 10002",
+    "emergency": true,
+    "specialties": [
+      "Cardiology",
+      "Dermatology",
+      "Gynecology",
+      "Pediatrics"
+    ]
+  },
+  {
+    "id": "h3",
+    "name": "Family Health Centre",
+    "city": "Narasaraopet",
+    "address": "Central Care Road, Narasaraopet",
+    "phone": "+91 90000 10003",
+    "emergency": false,
+    "specialties": [
+      "General Care",
+      "Pediatrics",
+      "Dermatology"
+    ]
+  },
+  {
+    "id": "h4",
+    "name": "Wellness Medical Centre",
+    "city": "Tenali",
+    "address": "Wellness Street, Tenali",
+    "phone": "+91 90000 10004",
+    "emergency": false,
+    "specialties": [
+      "Orthopedics",
+      "Ophthalmology",
+      "Psychiatry"
+    ]
+  }
+]

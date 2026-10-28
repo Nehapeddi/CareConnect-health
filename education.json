@@ -1,0 +1,38 @@
+[
+  {
+    "id": "e1",
+    "title": "Preparing for a video consultation",
+    "category": "Telemedicine",
+    "text": "Keep your symptoms, current medicines, allergies and recent reports ready. Choose a quiet, well-lit place and use a reliable internet connection."
+  },
+  {
+    "id": "e2",
+    "title": "Understanding blood pressure",
+    "category": "Heart health",
+    "text": "Blood pressure readings have two numbers. Keep a record of readings taken correctly and discuss repeated abnormal readings with a clinician."
+  },
+  {
+    "id": "e3",
+    "title": "Child fever basics",
+    "category": "Kids Care",
+    "text": "Keep a child hydrated and monitor temperature. Seek urgent medical care for breathing difficulty, seizures, severe dehydration, unusual sleepiness or other emergency signs."
+  },
+  {
+    "id": "e4",
+    "title": "Healthy sleep routine",
+    "category": "Wellness",
+    "text": "A consistent sleep and wake time, reduced late caffeine and a calm pre-sleep routine can support healthy sleep."
+  },
+  {
+    "id": "e5",
+    "title": "Medicine safety",
+    "category": "Medicines",
+    "text": "Keep medicines in their original packaging, check expiry dates and never share prescription medicines."
+  },
+  {
+    "id": "e6",
+    "title": "When to seek emergency help",
+    "category": "Emergency",
+    "text": "Severe chest pain, severe breathing difficulty, sudden weakness, heavy bleeding, seizures or loss of consciousness require urgent emergency care."
+  }
+]

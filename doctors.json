@@ -1,0 +1,2139 @@
+[
+  {
+    "id": "d1",
+    "name": "Dr. Sophia Bennett",
+    "specialty": "Cardiology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 64,
+    "fee": 500,
+    "about": "Cardiology specialist with 7 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d2",
+    "name": "Dr. William Anderson",
+    "specialty": "Cardiology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 101,
+    "fee": 550,
+    "about": "Cardiology specialist with 10 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d3",
+    "name": "Dr. Olivia Carter",
+    "specialty": "Cardiology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 138,
+    "fee": 600,
+    "about": "Cardiology specialist with 13 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d4",
+    "name": "Dr. James Wilson",
+    "specialty": "Cardiology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 175,
+    "fee": 650,
+    "about": "Cardiology specialist with 16 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d5",
+    "name": "Dr. Emma Roberts",
+    "specialty": "Cardiology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 92,
+    "fee": 500,
+    "about": "Cardiology specialist with 7 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d6",
+    "name": "Dr. Michael Thompson",
+    "specialty": "Cardiology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 129,
+    "fee": 550,
+    "about": "Cardiology specialist with 10 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d7",
+    "name": "Dr. Ava Martinez",
+    "specialty": "Cardiology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 166,
+    "fee": 600,
+    "about": "Cardiology specialist with 13 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d8",
+    "name": "Dr. Daniel Harris",
+    "specialty": "Cardiology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 83,
+    "fee": 650,
+    "about": "Cardiology specialist with 16 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d9",
+    "name": "Dr. Isabella Clark",
+    "specialty": "Cardiology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 120,
+    "fee": 500,
+    "about": "Cardiology specialist with 7 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d10",
+    "name": "Dr. Noah Williams",
+    "specialty": "Cardiology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 157,
+    "fee": 550,
+    "about": "Cardiology specialist with 10 years of experience in heart health and cardiovascular care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d11",
+    "name": "Dr. Mia Walker",
+    "specialty": "Dermatology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 74,
+    "fee": 450,
+    "about": "Dermatology specialist with 13 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d12",
+    "name": "Dr. Alexander Brown",
+    "specialty": "Dermatology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 111,
+    "fee": 500,
+    "about": "Dermatology specialist with 16 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d13",
+    "name": "Dr. Amelia Lewis",
+    "specialty": "Dermatology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 148,
+    "fee": 550,
+    "about": "Dermatology specialist with 7 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d14",
+    "name": "Dr. Ethan Davis",
+    "specialty": "Dermatology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 65,
+    "fee": 600,
+    "about": "Dermatology specialist with 10 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d15",
+    "name": "Dr. Charlotte Young",
+    "specialty": "Dermatology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 102,
+    "fee": 450,
+    "about": "Dermatology specialist with 13 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d16",
+    "name": "Dr. Benjamin Miller",
+    "specialty": "Dermatology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 139,
+    "fee": 500,
+    "about": "Dermatology specialist with 16 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d17",
+    "name": "Dr. Harper King",
+    "specialty": "Dermatology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 176,
+    "fee": 550,
+    "about": "Dermatology specialist with 7 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d18",
+    "name": "Dr. Lucas Moore",
+    "specialty": "Dermatology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 93,
+    "fee": 600,
+    "about": "Dermatology specialist with 10 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d19",
+    "name": "Dr. Evelyn Green",
+    "specialty": "Dermatology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 130,
+    "fee": 450,
+    "about": "Dermatology specialist with 13 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d20",
+    "name": "Dr. Henry Taylor",
+    "specialty": "Dermatology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 167,
+    "fee": 500,
+    "about": "Dermatology specialist with 16 years of experience in skin, hair and dermatological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d21",
+    "name": "Dr. Lily Adams",
+    "specialty": "Pediatrics",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 84,
+    "fee": 400,
+    "about": "Pediatrics specialist with 7 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "female"
+  },
+  {
+    "id": "d22",
+    "name": "Dr. Samuel Wright",
+    "specialty": "Pediatrics",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 121,
+    "fee": 450,
+    "about": "Pediatrics specialist with 10 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "male"
+  },
+  {
+    "id": "d23",
+    "name": "Dr. Grace Hall",
+    "specialty": "Pediatrics",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 158,
+    "fee": 500,
+    "about": "Pediatrics specialist with 13 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "female"
+  },
+  {
+    "id": "d24",
+    "name": "Dr. Jack Nelson",
+    "specialty": "Pediatrics",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 75,
+    "fee": 550,
+    "about": "Pediatrics specialist with 16 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "male"
+  },
+  {
+    "id": "d25",
+    "name": "Dr. Chloe Baker",
+    "specialty": "Pediatrics",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 112,
+    "fee": 400,
+    "about": "Pediatrics specialist with 7 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "female"
+  },
+  {
+    "id": "d26",
+    "name": "Dr. Matthew Collins",
+    "specialty": "Pediatrics",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 149,
+    "fee": 450,
+    "about": "Pediatrics specialist with 10 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "male"
+  },
+  {
+    "id": "d27",
+    "name": "Dr. Ella Turner",
+    "specialty": "Pediatrics",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 66,
+    "fee": 500,
+    "about": "Pediatrics specialist with 13 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "female"
+  },
+  {
+    "id": "d28",
+    "name": "Dr. David Parker",
+    "specialty": "Pediatrics",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 103,
+    "fee": 550,
+    "about": "Pediatrics specialist with 16 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "male"
+  },
+  {
+    "id": "d29",
+    "name": "Dr. Aria Evans",
+    "specialty": "Pediatrics",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 140,
+    "fee": 400,
+    "about": "Pediatrics specialist with 7 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "female"
+  },
+  {
+    "id": "d30",
+    "name": "Dr. Joseph Edwards",
+    "specialty": "Pediatrics",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 177,
+    "fee": 450,
+    "about": "Pediatrics specialist with 10 years of experience in children's health and family-centered pediatric care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "childCare": true,
+    "childFocus": [
+      "Newborn care",
+      "Growth & nutrition",
+      "Vaccination guidance",
+      "School health",
+      "Child wellness"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "gender": "male"
+  },
+  {
+    "id": "d31",
+    "name": "Dr. Sophie Stewart",
+    "specialty": "Neurology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 94,
+    "fee": 600,
+    "about": "Neurology specialist with 13 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d32",
+    "name": "Dr. Ryan Morris",
+    "specialty": "Neurology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 131,
+    "fee": 650,
+    "about": "Neurology specialist with 16 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d33",
+    "name": "Dr. Hannah Rogers",
+    "specialty": "Neurology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 168,
+    "fee": 700,
+    "about": "Neurology specialist with 7 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d34",
+    "name": "Dr. Andrew Cook",
+    "specialty": "Neurology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 85,
+    "fee": 750,
+    "about": "Neurology specialist with 10 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d35",
+    "name": "Dr. Nora Morgan",
+    "specialty": "Neurology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 122,
+    "fee": 600,
+    "about": "Neurology specialist with 13 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d36",
+    "name": "Dr. Christopher Bell",
+    "specialty": "Neurology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 159,
+    "fee": 650,
+    "about": "Neurology specialist with 16 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d37",
+    "name": "Dr. Zoe Murphy",
+    "specialty": "Neurology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 76,
+    "fee": 700,
+    "about": "Neurology specialist with 7 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d38",
+    "name": "Dr. Nathan Bailey",
+    "specialty": "Neurology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 113,
+    "fee": 750,
+    "about": "Neurology specialist with 10 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d39",
+    "name": "Dr. Victoria Rivera",
+    "specialty": "Neurology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 150,
+    "fee": 600,
+    "about": "Neurology specialist with 13 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d40",
+    "name": "Dr. Daniel Cooper",
+    "specialty": "Neurology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 67,
+    "fee": 650,
+    "about": "Neurology specialist with 16 years of experience in neurological health and nervous-system care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d41",
+    "name": "Dr. Claire Richardson",
+    "specialty": "Orthopedics",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 104,
+    "fee": 650,
+    "about": "Orthopedics specialist with 7 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d42",
+    "name": "Dr. Thomas Cox",
+    "specialty": "Orthopedics",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 141,
+    "fee": 700,
+    "about": "Orthopedics specialist with 10 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d43",
+    "name": "Dr. Lucy Howard",
+    "specialty": "Orthopedics",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 178,
+    "fee": 750,
+    "about": "Orthopedics specialist with 13 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d44",
+    "name": "Dr. Anthony Ward",
+    "specialty": "Orthopedics",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 95,
+    "fee": 800,
+    "about": "Orthopedics specialist with 16 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d45",
+    "name": "Dr. Stella Torres",
+    "specialty": "Orthopedics",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 132,
+    "fee": 650,
+    "about": "Orthopedics specialist with 7 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d46",
+    "name": "Dr. Matthew Peterson",
+    "specialty": "Orthopedics",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 169,
+    "fee": 700,
+    "about": "Orthopedics specialist with 10 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d47",
+    "name": "Dr. Leah Gray",
+    "specialty": "Orthopedics",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 86,
+    "fee": 750,
+    "about": "Orthopedics specialist with 13 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d48",
+    "name": "Dr. Robert Ramirez",
+    "specialty": "Orthopedics",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 123,
+    "fee": 800,
+    "about": "Orthopedics specialist with 16 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d49",
+    "name": "Dr. Scarlett James",
+    "specialty": "Orthopedics",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 160,
+    "fee": 650,
+    "about": "Orthopedics specialist with 7 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d50",
+    "name": "Dr. Leo Watson",
+    "specialty": "Orthopedics",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 77,
+    "fee": 700,
+    "about": "Orthopedics specialist with 10 years of experience in bones, joints, muscles and mobility care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d51",
+    "name": "Dr. Audrey Brooks",
+    "specialty": "Ophthalmology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 114,
+    "fee": 450,
+    "about": "Ophthalmology specialist with 13 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d52",
+    "name": "Dr. Charles Kelly",
+    "specialty": "Ophthalmology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 151,
+    "fee": 500,
+    "about": "Ophthalmology specialist with 16 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d53",
+    "name": "Dr. Maya Sanders",
+    "specialty": "Ophthalmology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 68,
+    "fee": 550,
+    "about": "Ophthalmology specialist with 7 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d54",
+    "name": "Dr. George Price",
+    "specialty": "Ophthalmology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 105,
+    "fee": 600,
+    "about": "Ophthalmology specialist with 10 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d55",
+    "name": "Dr. Alice Bennett",
+    "specialty": "Ophthalmology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 142,
+    "fee": 450,
+    "about": "Ophthalmology specialist with 13 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d56",
+    "name": "Dr. Edward Wood",
+    "specialty": "Ophthalmology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 179,
+    "fee": 500,
+    "about": "Ophthalmology specialist with 16 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d57",
+    "name": "Dr. Ruby Barnes",
+    "specialty": "Ophthalmology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 96,
+    "fee": 550,
+    "about": "Ophthalmology specialist with 7 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d58",
+    "name": "Dr. Samuel Ross",
+    "specialty": "Ophthalmology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 133,
+    "fee": 600,
+    "about": "Ophthalmology specialist with 10 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d59",
+    "name": "Dr. Ivy Henderson",
+    "specialty": "Ophthalmology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 170,
+    "fee": 450,
+    "about": "Ophthalmology specialist with 13 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d60",
+    "name": "Dr. Jacob Coleman",
+    "specialty": "Ophthalmology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 87,
+    "fee": 500,
+    "about": "Ophthalmology specialist with 16 years of experience in eye health, vision and preventive eye care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d61",
+    "name": "Dr. Layla Jenkins",
+    "specialty": "Psychiatry",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 124,
+    "fee": 600,
+    "about": "Psychiatry specialist with 7 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d62",
+    "name": "Dr. John Perry",
+    "specialty": "Psychiatry",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 161,
+    "fee": 650,
+    "about": "Psychiatry specialist with 10 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d63",
+    "name": "Dr. Ellie Powell",
+    "specialty": "Psychiatry",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 78,
+    "fee": 700,
+    "about": "Psychiatry specialist with 13 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d64",
+    "name": "Dr. Dylan Long",
+    "specialty": "Psychiatry",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 115,
+    "fee": 750,
+    "about": "Psychiatry specialist with 16 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d65",
+    "name": "Dr. Abigail Patterson",
+    "specialty": "Psychiatry",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 152,
+    "fee": 600,
+    "about": "Psychiatry specialist with 7 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d66",
+    "name": "Dr. Owen Hughes",
+    "specialty": "Psychiatry",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 69,
+    "fee": 650,
+    "about": "Psychiatry specialist with 10 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d67",
+    "name": "Dr. Sofia Flores",
+    "specialty": "Psychiatry",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 106,
+    "fee": 700,
+    "about": "Psychiatry specialist with 13 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d68",
+    "name": "Dr. Luke Washington",
+    "specialty": "Psychiatry",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 143,
+    "fee": 750,
+    "about": "Psychiatry specialist with 16 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d69",
+    "name": "Dr. Emily Butler",
+    "specialty": "Psychiatry",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 180,
+    "fee": 600,
+    "about": "Psychiatry specialist with 7 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d70",
+    "name": "Dr. Sebastian Simmons",
+    "specialty": "Psychiatry",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 97,
+    "fee": 650,
+    "about": "Psychiatry specialist with 10 years of experience in confidential mental-wellbeing consultations. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d71",
+    "name": "Dr. Aaliyah Foster",
+    "specialty": "Gynecology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 134,
+    "fee": 550,
+    "about": "Gynecology specialist with 13 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d72",
+    "name": "Dr. Isaac Gonzales",
+    "specialty": "Gynecology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 171,
+    "fee": 600,
+    "about": "Gynecology specialist with 16 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d73",
+    "name": "Dr. Madison Bryant",
+    "specialty": "Gynecology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 88,
+    "fee": 650,
+    "about": "Gynecology specialist with 7 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d74",
+    "name": "Dr. Julian Alexander",
+    "specialty": "Gynecology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 125,
+    "fee": 700,
+    "about": "Gynecology specialist with 10 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d75",
+    "name": "Dr. Penelope Russell",
+    "specialty": "Gynecology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 162,
+    "fee": 550,
+    "about": "Gynecology specialist with 13 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d76",
+    "name": "Dr. David Griffin",
+    "specialty": "Gynecology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 79,
+    "fee": 600,
+    "about": "Gynecology specialist with 16 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d77",
+    "name": "Dr. Camila Diaz",
+    "specialty": "Gynecology",
+    "experience": "7 years",
+    "rating": 4.6,
+    "reviews": 116,
+    "fee": 650,
+    "about": "Gynecology specialist with 7 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d78",
+    "name": "Dr. Christopher Hayes",
+    "specialty": "Gynecology",
+    "experience": "10 years",
+    "rating": 4.9,
+    "reviews": 153,
+    "fee": 700,
+    "about": "Gynecology specialist with 10 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  },
+  {
+    "id": "d79",
+    "name": "Dr. Luna Myers",
+    "specialty": "Gynecology",
+    "experience": "13 years",
+    "rating": 4.8,
+    "reviews": 70,
+    "fee": 550,
+    "about": "Gynecology specialist with 13 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-female.png",
+    "available": [
+      "9:00 AM",
+      "12:00 PM",
+      "3:00 PM",
+      "6:00 PM"
+    ],
+    "languages": [
+      "English",
+      "Telugu",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "female"
+  },
+  {
+    "id": "d80",
+    "name": "Dr. Andrew Ford",
+    "specialty": "Gynecology",
+    "experience": "16 years",
+    "rating": 4.7,
+    "reviews": 107,
+    "fee": 600,
+    "about": "Gynecology specialist with 16 years of experience in women's health and preventive gynecological care. Offers patient-focused consultations and personalized care plans.",
+    "image": "/images/doctors/doctor-male.png",
+    "available": [
+      "10:30 AM",
+      "1:30 PM",
+      "4:30 PM"
+    ],
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "videoConsultation": true,
+    "whiteCoat": true,
+    "stethoscope": true,
+    "childCare": false,
+    "gender": "male"
+  }
+]

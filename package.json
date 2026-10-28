@@ -1,0 +1,21 @@
+{
+  "name": "careconnect-doctor-app",
+  "version": "3.0.0",
+  "description": "CareConnect full-stack healthcare demo with appointments, telemedicine, prescriptions, lab reports, wellness, messaging and care navigation.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "serverless-http": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
