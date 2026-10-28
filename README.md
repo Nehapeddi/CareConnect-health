@@ -1,123 +1,117 @@
-# CareConnect 2.0 — Complete Healthcare Web App
+# CareConnect Pro — Full Stack Healthcare Management Website
 
-CareConnect is a full-stack student project built with **HTML, CSS, JavaScript, Node.js, Express and JSON files**.
+## Features
 
-## Included features
+- Healthcare landing page with a responsive design for desktop and mobile
+- User registration and login with authentication
+- Doctor information and healthcare services
+- Appointment management
+- Prescription management
+- Patient dashboard with upcoming appointments and health-related information
+- Task management for healthcare-related activities
+- Payment information and payment summaries
+- Community features for users
+- Demo video consultation interface
+- REST API built with Node.js and Express
+- API health endpoint to check server status
+- Netlify deployment support for online access
 
-1. Telemedicine & browser video consultation demo
-2. Appointment scheduling
-3. Appointment reminders / browser notification permission
-4. Prescription management & refill requests
-5. Medicine directory with descriptions and safety notes
-6. Patient education tools
-7. Symptom checker (educational triage only)
-8. Clinical decision-support style safety checklists
-9. Task and workflow management
-10. Demo billing and payments
-11. Patient dashboard
-12. Hospital finder
-13. Healthcare insurance companion
-14. Virtual wellness coach
-15. Emergency alert system with India emergency numbers
-16. Health communities and support groups
-17. Doctor messaging
-18. Kids Care / Pediatrics with child-age booking
-19. 80 demo doctors — 10 in each specialty
-20. Local doctor SVG portraits showing white coats and stethoscopes
+## Requirements
 
-## Run locally
+Install:
 
-Open a terminal in this project folder:
+1. Node.js LTS
+2. npm (included with Node.js)
+3. Visual Studio Code
+4. Git and a GitHub account (for deployment)
 
-```powershell
-npm install
-npm start
+## Setup
+
+1. Open the CareConnect Pro project folder in VS Code.
+2. Open **Terminal → New Terminal**.
+3. Install the project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a `.env` file in the project root directory.
+5. Add your environment variables to `.env`:
+
+   ```env
+   JWT_SECRET=your_private_random_secret
+   PORT=5001
+   ```
+
+6. Start the local server:
+
+   ```bash
+   npm start
+   ```
+
+7. Open the local website in your browser:
+
+   `http://localhost:5001`
+
+8. To access the deployed website, visit:
+
+   https://careconne.netlify.app/
+
+For development with automatic server restart, use:
+
+```bash
+npm run dev
 ```
 
-Then open:
+*Note: The development command requires a corresponding script in `package.json` and a development tool such as `nodemon`.*
 
-```text
-https://careconne.netlify.app/
-```
+## Deployment on Netlify
 
-Do **not** use Live Server for this version. `server.js` serves the frontend and API together.
+The project is configured to support Netlify deployment.
 
-If port 5000 is already in use:
+- `public` is the frontend publishing directory.
+- `netlify/functions` contains the serverless API function.
+- `netlify.toml` configures the build and API redirects.
+- The Express application in `server.js` is wrapped using `serverless-http` for Netlify Functions.
 
-```powershell
-netstat -ano | findstr :5000
-taskkill /PID YOUR_PID /F
-npm start
-```
+After pushing changes to the connected GitHub repository, Netlify can deploy the updated project automatically.
 
-Or change `PORT` in `.env` and open the new port.
+Live website: https://careconne.netlify.app/
 
-## Login
+## API
 
-Create an account from the app. Passwords are hashed with bcryptjs and sessions use JWT.
+The following API endpoints are available in the project:
 
-## JSON data
+- `GET /api/health` — Checks whether the API is running.
+- `POST /api/auth/register` — Registers a user.
+- `POST /api/auth/login` — Logs in a user.
+- `GET /api/dashboard` — Retrieves the authenticated user's dashboard information.
+- Appointment endpoints — Manage appointment information.
+- Prescription endpoints — Manage prescription information.
+- Task endpoints — Manage tasks.
+- Payment endpoints — Retrieve payment information.
+- Community endpoints — Manage community-related actions.
 
-All demo data is stored in the `data/` folder:
+Some endpoints require authentication.
 
-- `doctors.json`
-- `users.json`
-- `appointments.json`
-- `messages.json`
-- `medicines.json`
-- `prescriptions.json`
-- `education.json`
-- `tasks.json`
-- `payments.json`
-- `hospitals.json`
-- `insurance.json`
-- `communities.json`
+## Project Structure
 
-The Express API reads/writes these files. This is suitable for a college prototype. A production healthcare application should use a secure database and stronger infrastructure.
+- `public/index.html` → Website page structure
+- `public/style.css` → Website styling and responsive layout
+- `public/app.js` → Frontend logic, API requests, and user interactions
+- `server.js` → Express server, API routes, authentication, and application logic
+- `netlify/functions/api.js` → Connects the Express application to Netlify Functions
+- `netlify.toml` → Netlify build configuration and API redirects
+- `package.json` → Project dependencies and npm scripts
+- `.env` → Private environment variables; create locally and do not upload to GitHub
+- `.gitignore` → Specifies files and folders Git should ignore
 
-## API key / .env
+## Important
 
-This project does **not require an external API key** to run.
-
-`.env` contains:
-
-```env
-PORT=5000
-JWT_SECRET=careconnect_demo_secret_2026_change_me
-```
-
-Keep `.env` out of GitHub. It is already listed in `.gitignore`.
-
-If you later add a real service such as a maps provider, video provider, payment gateway or SMS service, store that provider's secret in `.env`, for example:
-
-```env
-MAPS_API_KEY=your_key_here
-VIDEO_PROVIDER_KEY=your_key_here
-PAYMENT_PROVIDER_KEY=your_key_here
-```
-
-Then read it in Node.js with `process.env.MAPS_API_KEY`.
-
-**Never put private API secrets directly inside `public/app.js` or HTML.**
-
-## Video consultation note
-
-The video feature demonstrates browser camera/microphone access and a CareConnect consultation room UI. It is intentionally a local/demo implementation. A real two-person telemedicine system requires a production WebRTC signaling layer or a trusted video provider, authentication, encryption, consent/privacy controls and healthcare-compliance review.
-
-## Medical safety note
-
-The symptom checker, medicine descriptions, education pages and clinical-support checklists are educational demo features. They are not diagnoses, prescriptions or medical advice. Real patients should consult qualified healthcare professionals and use emergency services for urgent situations.
-
-The doctor names, profiles, hospitals, insurance plans and medical data in this project are fictional demo content.
-
-
-## CareConnect 3.0 additions
-
-- User-supplied male doctor image for male doctors.
-- User-supplied female doctor image for female doctors.
-- Lab Reports page with demo records and report status.
-- Settings page with appointment, medicine, community and appearance preferences.
-- New `/api/labreports` and `/api/settings` endpoints.
-- Refined cards, summaries, settings toggles and responsive styling.
-
-All medical data in this student project is demo/educational data. Do not use it as a clinical record system without appropriate security, privacy, regulatory and clinical validation.
+- Keep `.env` and all private credentials out of your public GitHub repository.
+- Set a strong, unique `JWT_SECRET` in Netlify's environment variables for production.
+- The project currently uses JSON files for data storage, as implemented in `server.js`. It does not currently use MongoDB unless you add and configure that integration.
+- Netlify Functions are designed for serverless execution; local file-based storage should not be treated as permanent production storage.
+- The video consultation feature is a demo interface and does not, by itself, provide a complete real-time video consultation between two users.
+- The API base URL in `public/app.js` is configured for the frontend and backend to use the same Netlify domain.
+- For local development, use `http://localhost:5001`. For the deployed website, use the Netlify URL above.
